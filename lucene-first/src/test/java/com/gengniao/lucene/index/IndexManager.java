@@ -1,12 +1,5 @@
-/**   
-* @Title: IndexManager.java 
-* @Package cn.itheima.lucene.index 
-* @Description: TODO(用一句话描述该文件做什么) 
-* @author 传智 小杨老师 
-* @date 2017-10-17 上午10:26:05 
-* @version V1.0   
-*/
-package cn.itheima.lucene.index;
+
+package com.gengniao.lucene.index;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field.Store;
 import org.apache.lucene.document.TextField;
@@ -22,7 +14,6 @@ import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
-import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.Query;
@@ -34,9 +25,9 @@ import org.apache.lucene.util.Version;
 import org.junit.Test;
 import org.wltea.analyzer.lucene.IKAnalyzer;
 
-import cn.itheima.lucene.dao.BookDao;
-import cn.itheima.lucene.dao.impl.BookDaoImpl;
-import cn.itheima.lucene.po.Book;
+import com.gengniao.lucene.dao.BookDao;
+import com.gengniao.lucene.dao.impl.BookDaoImpl;
+import com.gengniao.lucene.po.Book;
 
 /** 
  * @ClassName: IndexManager 

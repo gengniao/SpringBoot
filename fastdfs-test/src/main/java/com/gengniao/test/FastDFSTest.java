@@ -1,4 +1,4 @@
-package cn.kongzi.test;
+package com.gengniao.test;
 
 import java.io.File;
 import java.io.FileNotFoundException;

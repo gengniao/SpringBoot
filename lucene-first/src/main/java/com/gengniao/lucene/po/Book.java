@@ -1,12 +1,5 @@
-/**   
-* @Title: Book.java 
-* @Package cn.itheima.lucene.po 
-* @Description: TODO(用一句话描述该文件做什么) 
-* @author 传智 小杨老师 
-* @date 2017-10-17 上午9:55:09 
-* @version V1.0   
-*/
-package cn.itheima.lucene.po;
+
+package com.gengniao.lucene.po;
 
 /** 
  * @ClassName: Book 

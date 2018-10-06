@@ -1,12 +1,4 @@
-/**   
-* @Title: BookDaoImpl.java 
-* @Package cn.itheima.lucene.dao.impl 
-* @Description: TODO(用一句话描述该文件做什么) 
-* @author 传智 小杨老师 
-* @date 2017-10-17 上午9:58:19 
-* @version V1.0   
-*/
-package cn.itheima.lucene.dao.impl;
+package com.gengniao.lucene.dao.impl;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,8 +7,8 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.itheima.lucene.dao.BookDao;
-import cn.itheima.lucene.po.Book;
+import com.gengniao.lucene.dao.BookDao;
+import com.gengniao.lucene.po.Book;
 
 /** 
  * @ClassName: BookDaoImpl 
