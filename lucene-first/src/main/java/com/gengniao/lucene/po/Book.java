@@ -1,13 +1,6 @@
 
 package com.gengniao.lucene.po;
 
-/** 
- * @ClassName: Book 
- * @Description: 图书pojo
- * @author 传智 小杨老师  
- * @date 2017-10-17 上午9:55:09 
- *  
- */
 public class Book {
 	
 	  private Integer id; // int(11) DEFAULT NULL,

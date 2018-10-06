@@ -29,13 +29,6 @@ import com.gengniao.lucene.dao.BookDao;
 import com.gengniao.lucene.dao.impl.BookDaoImpl;
 import com.gengniao.lucene.po.Book;
 
-/** 
- * @ClassName: IndexManager 
- * @Description: 索引管理类型 
- * @author 传智 小杨老师  
- * @date 2017-10-17 上午10:26:05 
- *  
- */
 public class IndexManager {
 	
 	private static final String INDEX_DIRECTORY="E:\\teach\\0328\\04lucene&solr\\index\\";
