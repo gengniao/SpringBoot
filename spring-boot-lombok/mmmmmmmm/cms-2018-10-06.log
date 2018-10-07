@@ -1,0 +1,560 @@
+2018-10-06 21:32:42 1745 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 8872 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 21:32:42 1749 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 21:32:42 1925 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4dc37fca: startup date [Sat Oct 06 21:32:42 CST 2018]; root of context hierarchy 
+2018-10-06 21:32:43 2647 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+2018-10-06 21:32:46 5807 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+2018-10-06 21:33:57 1575 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 8316 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 21:33:57 1577 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 21:33:57 1753 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22e30767: startup date [Sat Oct 06 21:33:57 CST 2018]; root of context hierarchy 
+2018-10-06 21:33:58 2651 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+2018-10-06 21:34:02 6505 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 21:34:02 6571 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 21:34:02 6577 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 21:34:02 6985 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 21:34:02 6986 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5233 ms 
+2018-10-06 21:34:03 7379 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 21:34:03 7389 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 21:34:03 7390 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 21:34:03 7391 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 21:34:03 7392 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 21:34:04 9070 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22e30767: startup date [Sat Oct 06 21:33:57 CST 2018]; root of context hierarchy 
+2018-10-06 21:34:04 9255 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 21:34:04 9261 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 21:34:04 9273 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 21:34:04 9274 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 21:34:05 9377 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 21:34:05 9377 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 21:34:05 9726 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 21:34:06 10547 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-10-06 21:34:06 10856 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 21:34:06 10905 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 21:34:06 10934 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 21:34:06 10975 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-10-06 21:34:06 11050 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+2018-10-06 21:34:06 11096 [restartedMain] INFO  com.gengniao.lombok.Application - Started Application in 10.403 seconds (JVM running for 11.893) 
+2018-10-06 21:34:40 44707 [http-nio-8080-exec-10] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+2018-10-06 21:34:40 44708 [http-nio-8080-exec-10] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+2018-10-06 21:34:40 44769 [http-nio-8080-exec-10] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 61 ms 
+2018-10-06 21:34:40 44836 [http-nio-8080-exec-10] INFO  c.g.l.controller.StudentController - ============================================ 
+2018-10-06 21:34:40 44836 [http-nio-8080-exec-10] INFO  c.g.l.controller.StudentController - 欢迎进入学生信息控制器 
+2018-10-06 21:49:32 936823 [http-nio-8080-exec-8] INFO  c.g.l.controller.StudentController - ============================================ 
+2018-10-06 21:49:32 936824 [http-nio-8080-exec-8] INFO  c.g.l.controller.StudentController - 查询所有学生信息服务已经就绪 
+2018-10-06 22:12:35 2320295 [Thread-6] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22e30767: startup date [Sat Oct 06 21:33:57 CST 2018]; root of context hierarchy 
+2018-10-06 22:12:35 2320314 [Thread-6] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-10-06 22:12:36 2321100 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 8316 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:12:36 2321113 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:12:36 2321153 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@671c7ab0: startup date [Sat Oct 06 22:12:36 CST 2018]; root of context hierarchy 
+2018-10-06 22:12:38 2322887 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+2018-10-06 22:12:46 2330665 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 8316 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:12:46 2330666 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:12:46 2330671 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@498f8536: startup date [Sat Oct 06 22:12:46 CST 2018]; root of context hierarchy 
+2018-10-06 22:12:48 2332783 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+2018-10-06 22:12:53 1690 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 9336 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:12:53 1692 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:12:53 1845 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@317685d2: startup date [Sat Oct 06 22:12:53 CST 2018]; root of context hierarchy 
+2018-10-06 22:12:54 2579 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+2018-10-06 22:12:57 4983 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+2018-10-06 22:13:49 2393852 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 8316 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:13:49 2393852 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:13:49 2393857 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20e7e2d5: startup date [Sat Oct 06 22:13:49 CST 2018]; root of context hierarchy 
+2018-10-06 22:13:50 2395263 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 22:13:50 2395266 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 22:13:50 2395268 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 22:13:51 2395456 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 22:13:51 2395488 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1631 ms 
+2018-10-06 22:13:51 2395611 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 22:13:51 2395612 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 22:13:51 2395614 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 22:13:51 2395624 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 22:13:51 2395625 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 22:13:52 2396532 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20e7e2d5: startup date [Sat Oct 06 22:13:49 CST 2018]; root of context hierarchy 
+2018-10-06 22:13:52 2396570 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 22:13:52 2396571 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 22:13:52 2396576 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 22:13:52 2396578 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 22:13:52 2396618 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:13:52 2396619 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:13:52 2396668 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:13:52 2396807 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-10-06 22:13:52 2396945 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 22:13:52 2396962 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:13:52 2396963 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:13:52 2396966 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-10-06 22:13:52 2396980 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+2018-10-06 22:13:52 2396990 [restartedMain] INFO  com.gengniao.lombok.Application - Started Application in 3.212 seconds (JVM running for 2397.787) 
+2018-10-06 22:14:00 2404377 [Thread-11] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20e7e2d5: startup date [Sat Oct 06 22:13:49 CST 2018]; root of context hierarchy 
+2018-10-06 22:14:00 2404380 [Thread-11] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-10-06 22:14:01 2405388 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 8316 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:14:01 2405389 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:14:01 2405398 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44f609d7: startup date [Sat Oct 06 22:14:01 CST 2018]; root of context hierarchy 
+2018-10-06 22:14:02 2407244 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 22:14:02 2407245 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 22:14:02 2407246 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 22:14:03 2407423 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 22:14:03 2407428 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2030 ms 
+2018-10-06 22:14:03 2407507 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 22:14:03 2407508 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 22:14:03 2407509 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 22:14:03 2407509 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 22:14:03 2407510 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 22:14:03 2408179 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44f609d7: startup date [Sat Oct 06 22:14:01 CST 2018]; root of context hierarchy 
+2018-10-06 22:14:03 2408230 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 22:14:03 2408230 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 22:14:03 2408233 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 22:14:03 2408234 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 22:14:03 2408248 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:14:03 2408249 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:14:03 2408307 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:14:04 2408463 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-10-06 22:14:04 2408613 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 22:14:04 2408627 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:14:04 2408628 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:14:04 2408630 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-10-06 22:14:04 2408646 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+2018-10-06 22:14:04 2408681 [restartedMain] INFO  com.gengniao.lombok.Application - Started Application in 3.41 seconds (JVM running for 2409.478) 
+2018-10-06 22:14:05 3264 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 2724 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:14:05 3267 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:14:05 3579 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3cb0917a: startup date [Sat Oct 06 22:14:05 CST 2018]; root of context hierarchy 
+2018-10-06 22:14:06 4875 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+2018-10-06 22:14:09 8042 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 22:14:10 8063 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 22:14:10 8066 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 22:14:10 8275 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 22:14:10 8275 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4696 ms 
+2018-10-06 22:14:10 8653 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 22:14:10 8662 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 22:14:10 8664 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 22:14:10 8665 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 22:14:10 8665 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 22:14:11 10032 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3cb0917a: startup date [Sat Oct 06 22:14:05 CST 2018]; root of context hierarchy 
+2018-10-06 22:14:12 10168 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 22:14:12 10171 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 22:14:12 10181 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 22:14:12 10182 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 22:14:12 10260 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:14:12 10260 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:14:12 10356 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:14:12 10953 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 22:14:12 10999 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:14:12 11022 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:14:13 11061 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:14:13 11062 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat] 
+2018-10-06 22:14:13 11131 [restartedMain] INFO  o.a.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored. 
+2018-10-06 22:14:13 11132 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:14:13 11133 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:14:13 11164 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+2018-10-06 22:14:13 11178 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3cb0917a: startup date [Sat Oct 06 22:14:05 CST 2018]; root of context hierarchy 
+2018-10-06 22:14:13 11187 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-10-06 22:14:57 2461813 [Thread-23] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44f609d7: startup date [Sat Oct 06 22:14:01 CST 2018]; root of context hierarchy 
+2018-10-06 22:14:57 2461817 [Thread-23] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-10-06 22:14:58 2463241 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 8316 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:14:58 2463242 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:14:58 2463247 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e191da7: startup date [Sat Oct 06 22:14:58 CST 2018]; root of context hierarchy 
+2018-10-06 22:15:01 2465475 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 22:15:01 2465479 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 22:15:01 2465480 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 22:15:01 2465589 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 22:15:01 2465591 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2344 ms 
+2018-10-06 22:15:01 2465682 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 22:15:01 2465684 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 22:15:01 2465684 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 22:15:01 2465685 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 22:15:01 2465688 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 22:15:01 2466043 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e191da7: startup date [Sat Oct 06 22:14:58 CST 2018]; root of context hierarchy 
+2018-10-06 22:15:01 2466053 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 22:15:01 2466054 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 22:15:01 2466059 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 22:15:01 2466060 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 22:15:01 2466069 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:15:01 2466069 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:15:01 2466086 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:15:01 2466176 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-10-06 22:15:01 2466310 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 22:15:01 2466333 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:15:01 2466334 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:15:01 2466337 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-10-06 22:15:02 2466356 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+2018-10-06 22:15:02 2466361 [restartedMain] INFO  com.gengniao.lombok.Application - Started Application in 3.234 seconds (JVM running for 2467.158) 
+2018-10-06 22:15:04 2247 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 8388 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:15:04 2255 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:15:04 2460 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@317685d2: startup date [Sat Oct 06 22:15:04 CST 2018]; root of context hierarchy 
+2018-10-06 22:15:05 3254 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+2018-10-06 22:15:08 6608 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 22:15:08 6639 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 22:15:08 6642 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 22:15:08 6902 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 22:15:08 6903 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4443 ms 
+2018-10-06 22:15:09 7262 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 22:15:09 7271 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 22:15:09 7273 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 22:15:09 7274 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 22:15:09 7275 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 22:15:10 8810 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@317685d2: startup date [Sat Oct 06 22:15:04 CST 2018]; root of context hierarchy 
+2018-10-06 22:15:11 8975 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 22:15:11 8979 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 22:15:11 8988 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 22:15:11 8990 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 22:15:11 9055 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:15:11 9056 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:15:11 9152 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:15:12 9932 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 22:15:12 9986 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:15:12 10014 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:15:12 10051 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:15:12 10051 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat] 
+2018-10-06 22:15:12 10133 [restartedMain] INFO  o.a.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored. 
+2018-10-06 22:15:12 10136 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:15:12 10138 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:15:12 10159 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+2018-10-06 22:15:12 10173 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@317685d2: startup date [Sat Oct 06 22:15:04 CST 2018]; root of context hierarchy 
+2018-10-06 22:15:12 10181 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-10-06 22:16:50 1725 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 7308 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:16:50 1728 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:16:50 1924 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cceade9: startup date [Sat Oct 06 22:16:50 CST 2018]; root of context hierarchy 
+2018-10-06 22:16:51 2776 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+2018-10-06 22:16:55 6215 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 22:16:55 6237 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 22:16:55 6240 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 22:16:55 6479 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 22:16:55 6480 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4555 ms 
+2018-10-06 22:16:55 6905 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 22:16:55 6924 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 22:16:55 6928 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 22:16:55 6929 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 22:16:55 6932 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 22:16:57 8732 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cceade9: startup date [Sat Oct 06 22:16:50 CST 2018]; root of context hierarchy 
+2018-10-06 22:16:57 8923 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 22:16:57 8931 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 22:16:57 8940 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 22:16:57 8941 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 22:16:57 9017 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:16:57 9018 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:16:57 9116 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:16:58 9673 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-10-06 22:16:58 9830 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 22:16:58 9875 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:16:58 9896 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:16:58 9927 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-10-06 22:16:58 9986 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+2018-10-06 22:16:58 10006 [restartedMain] INFO  com.gengniao.lombok.Application - Started Application in 9.093 seconds (JVM running for 10.66) 
+2018-10-06 22:22:01 312565 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+2018-10-06 22:22:01 312565 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+2018-10-06 22:22:01 312624 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 58 ms 
+2018-10-06 22:22:01 312669 [http-nio-8080-exec-1] INFO  c.g.l.controller.StudentController - ============================================ 
+2018-10-06 22:22:01 312669 [http-nio-8080-exec-1] INFO  c.g.l.controller.StudentController - 查询所有学生信息服务已经就绪 
+2018-10-06 22:27:29 640979 [Thread-6] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cceade9: startup date [Sat Oct 06 22:16:50 CST 2018]; root of context hierarchy 
+2018-10-06 22:27:29 640989 [Thread-6] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-10-06 22:27:30 641674 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 7308 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:27:30 641675 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:27:30 641681 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@54744a30: startup date [Sat Oct 06 22:27:30 CST 2018]; root of context hierarchy 
+2018-10-06 22:27:31 642729 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 22:27:31 642731 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 22:27:31 642732 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 22:27:31 642769 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 22:27:31 642770 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1089 ms 
+2018-10-06 22:27:31 642818 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 22:27:31 642819 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 22:27:31 642820 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 22:27:31 642820 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 22:27:31 642820 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 22:27:32 643267 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@54744a30: startup date [Sat Oct 06 22:27:30 CST 2018]; root of context hierarchy 
+2018-10-06 22:27:32 643287 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 22:27:32 643288 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 22:27:32 643295 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 22:27:32 643297 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 22:27:32 643325 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:27:32 643326 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:27:32 643356 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:27:32 643458 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-10-06 22:27:32 643623 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 22:27:32 643637 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:27:32 643638 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:27:32 643641 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-10-06 22:27:32 643649 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+2018-10-06 22:27:32 643654 [restartedMain] INFO  com.gengniao.lombok.Application - Started Application in 2.064 seconds (JVM running for 644.308) 
+2018-10-06 22:27:45 657067 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+2018-10-06 22:27:45 657067 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+2018-10-06 22:27:45 657071 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms 
+2018-10-06 22:27:45 657074 [http-nio-8080-exec-1] INFO  c.g.l.controller.StudentController - ============================================ 
+2018-10-06 22:27:45 657074 [http-nio-8080-exec-1] INFO  c.g.l.controller.StudentController - 查询所有学生信息服务已经就绪 
+2018-10-06 22:27:46 658079 [http-nio-8080-exec-1] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml] 
+2018-10-06 22:27:47 658254 [http-nio-8080-exec-1] INFO  o.s.j.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana] 
+2018-10-06 22:32:23 934897 [Thread-11] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@54744a30: startup date [Sat Oct 06 22:27:30 CST 2018]; root of context hierarchy 
+2018-10-06 22:32:23 934900 [Thread-11] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-10-06 22:32:24 935754 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 7308 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:32:24 935754 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:32:24 935758 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@10dee62e: startup date [Sat Oct 06 22:32:24 CST 2018]; root of context hierarchy 
+2018-10-06 22:32:25 936680 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 22:32:25 936682 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 22:32:25 936682 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 22:32:25 936706 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 22:32:25 936708 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 951 ms 
+2018-10-06 22:32:25 936753 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 22:32:25 936754 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 22:32:25 936755 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 22:32:25 936755 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 22:32:25 936755 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 22:32:26 937360 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@10dee62e: startup date [Sat Oct 06 22:32:24 CST 2018]; root of context hierarchy 
+2018-10-06 22:32:26 937372 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 22:32:26 937373 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 22:32:26 937376 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 22:32:26 937377 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 22:32:26 937390 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:32:26 937390 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:32:26 937418 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:32:26 937546 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-10-06 22:32:26 937602 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 22:32:26 937627 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:32:26 937628 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:32:26 937631 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-10-06 22:32:26 937647 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+2018-10-06 22:32:26 937652 [restartedMain] INFO  com.gengniao.lombok.Application - Started Application in 1.988 seconds (JVM running for 938.306) 
+2018-10-06 22:32:32 943551 [http-nio-8080-exec-10] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+2018-10-06 22:32:32 943551 [http-nio-8080-exec-10] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+2018-10-06 22:32:32 943557 [http-nio-8080-exec-10] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms 
+2018-10-06 22:32:32 943563 [http-nio-8080-exec-10] INFO  c.g.l.controller.StudentController - ============================================ 
+2018-10-06 22:32:32 943564 [http-nio-8080-exec-10] INFO  c.g.l.controller.StudentController - 查询所有学生信息服务已经就绪 
+2018-10-06 22:34:34 1066074 [Thread-18] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@10dee62e: startup date [Sat Oct 06 22:32:24 CST 2018]; root of context hierarchy 
+2018-10-06 22:34:34 1066077 [Thread-18] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-10-06 22:34:36 1067925 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 7308 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:34:36 1067926 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:34:36 1067941 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65ac03e6: startup date [Sat Oct 06 22:34:36 CST 2018]; root of context hierarchy 
+2018-10-06 22:34:38 1069534 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 22:34:38 1069540 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 22:34:38 1069541 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 22:34:38 1069863 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 22:34:38 1069865 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1924 ms 
+2018-10-06 22:34:38 1070030 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 22:34:38 1070036 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 22:34:38 1070037 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 22:34:38 1070040 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 22:34:38 1070040 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 22:34:39 1070861 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65ac03e6: startup date [Sat Oct 06 22:34:36 CST 2018]; root of context hierarchy 
+2018-10-06 22:34:39 1070880 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 22:34:39 1070883 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 22:34:39 1071028 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 22:34:39 1071034 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 22:34:39 1071061 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:34:39 1071068 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:34:39 1071174 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:34:40 1071470 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-10-06 22:34:40 1071845 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 22:34:40 1071925 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:34:40 1071926 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:34:40 1071928 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-10-06 22:34:40 1072058 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+2018-10-06 22:34:40 1072063 [restartedMain] INFO  com.gengniao.lombok.Application - Started Application in 4.622 seconds (JVM running for 1072.717) 
+2018-10-06 22:34:41 4373 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 1760 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:34:41 4377 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:34:41 4697 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@503e0541: startup date [Sat Oct 06 22:34:41 CST 2018]; root of context hierarchy 
+2018-10-06 22:34:42 5633 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+2018-10-06 22:34:46 9155 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 22:34:46 9178 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 22:34:46 9181 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 22:34:46 9380 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 22:34:46 9380 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4684 ms 
+2018-10-06 22:34:46 9743 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 22:34:46 9752 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 22:34:46 9753 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 22:34:46 9753 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 22:34:46 9753 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 22:34:48 11082 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@503e0541: startup date [Sat Oct 06 22:34:41 CST 2018]; root of context hierarchy 
+2018-10-06 22:34:48 11228 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 22:34:48 11231 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 22:34:48 11238 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 22:34:48 11239 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 22:34:48 11316 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:34:48 11317 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:34:48 11402 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:34:49 12031 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 22:34:49 12069 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:34:49 12087 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:34:49 12114 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:34:49 12115 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat] 
+2018-10-06 22:34:49 12190 [restartedMain] INFO  o.a.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored. 
+2018-10-06 22:34:49 12191 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:34:49 12192 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:34:49 12215 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+2018-10-06 22:34:49 12237 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@503e0541: startup date [Sat Oct 06 22:34:41 CST 2018]; root of context hierarchy 
+2018-10-06 22:34:49 12244 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-10-06 22:35:39 1409 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 5048 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:35:39 1412 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:35:39 1574 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@317685d2: startup date [Sat Oct 06 22:35:39 CST 2018]; root of context hierarchy 
+2018-10-06 22:35:40 2387 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+2018-10-06 22:35:44 5653 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 22:35:44 5681 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 22:35:44 5684 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 22:35:44 5943 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 22:35:44 5944 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4370 ms 
+2018-10-06 22:35:44 6317 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 22:35:44 6329 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 22:35:44 6331 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 22:35:44 6332 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 22:35:44 6333 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 22:35:46 7840 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@317685d2: startup date [Sat Oct 06 22:35:39 CST 2018]; root of context hierarchy 
+2018-10-06 22:35:46 7965 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 22:35:46 7968 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 22:35:46 7976 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 22:35:46 7977 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 22:35:46 8044 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:35:46 8045 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:35:46 8154 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:35:46 8629 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-10-06 22:35:47 8765 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 22:35:47 8812 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:35:47 8836 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:35:47 8868 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-10-06 22:35:47 8913 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+2018-10-06 22:35:47 8924 [restartedMain] INFO  com.gengniao.lombok.Application - Started Application in 8.305 seconds (JVM running for 9.296) 
+2018-10-06 22:38:01 142997 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+2018-10-06 22:38:01 142998 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+2018-10-06 22:38:01 143059 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 61 ms 
+2018-10-06 22:38:01 143122 [http-nio-8080-exec-1] INFO  c.g.l.controller.StudentController - ============================================ 
+2018-10-06 22:38:01 143123 [http-nio-8080-exec-1] INFO  c.g.l.controller.StudentController - 查询所有学生信息服务已经就绪 
+2018-10-06 22:40:10 272299 [Thread-6] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@317685d2: startup date [Sat Oct 06 22:35:39 CST 2018]; root of context hierarchy 
+2018-10-06 22:40:10 272309 [Thread-6] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-10-06 22:40:12 274173 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 5048 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:40:12 274174 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:40:12 274182 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@734ed6a7: startup date [Sat Oct 06 22:40:12 CST 2018]; root of context hierarchy 
+2018-10-06 22:40:15 277003 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 22:40:15 277005 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 22:40:15 277007 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 22:40:15 277235 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 22:40:15 277238 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3057 ms 
+2018-10-06 22:40:15 277474 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 22:40:15 277476 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 22:40:15 277477 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 22:40:15 277477 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 22:40:15 277477 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 22:40:17 278741 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@734ed6a7: startup date [Sat Oct 06 22:40:12 CST 2018]; root of context hierarchy 
+2018-10-06 22:40:17 278757 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 22:40:17 278758 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 22:40:17 278764 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 22:40:17 278765 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 22:40:17 278791 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:40:17 278791 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:40:17 278821 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:40:17 279017 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-10-06 22:40:17 5392 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 10132 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:40:17 5395 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:40:18 279705 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 22:40:18 279828 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:40:18 279829 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:40:18 279847 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-10-06 22:40:18 280022 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+2018-10-06 22:40:18 280026 [restartedMain] INFO  com.gengniao.lombok.Application - Started Application in 6.232 seconds (JVM running for 280.399) 
+2018-10-06 22:40:18 5929 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a8ba87a: startup date [Sat Oct 06 22:40:18 CST 2018]; root of context hierarchy 
+2018-10-06 22:40:19 6793 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+2018-10-06 22:40:23 10435 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 22:40:23 10458 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 22:40:23 10460 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 22:40:23 10724 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 22:40:23 10725 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4796 ms 
+2018-10-06 22:40:23 11112 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 22:40:23 11122 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 22:40:23 11124 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 22:40:23 11125 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 22:40:23 11126 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 22:40:25 12846 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a8ba87a: startup date [Sat Oct 06 22:40:18 CST 2018]; root of context hierarchy 
+2018-10-06 22:40:25 13003 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 22:40:25 13012 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 22:40:25 13020 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 22:40:25 13021 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 22:40:25 13102 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:40:25 13102 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:40:25 13215 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:40:26 14113 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 22:40:26 14174 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:40:26 14209 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:40:26 14253 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:40:26 14253 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat] 
+2018-10-06 22:40:26 14344 [restartedMain] INFO  o.a.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored. 
+2018-10-06 22:40:26 14347 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:40:26 14350 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:40:26 14373 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+2018-10-06 22:40:27 14401 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a8ba87a: startup date [Sat Oct 06 22:40:18 CST 2018]; root of context hierarchy 
+2018-10-06 22:40:27 14414 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-10-06 22:41:18 1937 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 4040 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 22:41:18 1941 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 22:41:19 2098 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4dc37fca: startup date [Sat Oct 06 22:41:19 CST 2018]; root of context hierarchy 
+2018-10-06 22:41:19 2883 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+2018-10-06 22:41:23 6487 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 22:41:23 6503 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 22:41:23 6505 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 22:41:23 6744 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 22:41:23 6745 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4647 ms 
+2018-10-06 22:41:24 7161 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 22:41:24 7171 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 22:41:24 7173 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 22:41:24 7174 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 22:41:24 7174 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 22:41:25 8696 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4dc37fca: startup date [Sat Oct 06 22:41:19 CST 2018]; root of context hierarchy 
+2018-10-06 22:41:25 8845 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 22:41:25 8861 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 22:41:25 8868 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 22:41:25 8869 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 22:41:25 8979 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:41:25 8981 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:41:26 9197 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 22:41:26 9703 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-10-06 22:41:26 9840 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 22:41:26 9888 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:41:26 9932 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 22:41:26 9971 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-10-06 22:41:26 10018 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+2018-10-06 22:41:26 10032 [restartedMain] INFO  com.gengniao.lombok.Application - Started Application in 9.062 seconds (JVM running for 10.551) 
+2018-10-06 22:42:03 46621 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+2018-10-06 22:42:03 46621 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+2018-10-06 22:42:03 46849 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 227 ms 
+2018-10-06 22:42:03 47019 [http-nio-8080-exec-1] INFO  c.g.l.controller.StudentController - ============================================ 
+2018-10-06 22:42:03 47019 [http-nio-8080-exec-1] INFO  c.g.l.controller.StudentController - 查询所有学生信息服务已经就绪 
+2018-10-06 23:13:13 1710 [restartedMain] INFO  com.gengniao.lombok.Application - Starting Application on DESKTOP-QOIFI8V with PID 10828 (D:\Session\spring-boot-lombok\target\classes started by 孔子不悦 in D:\Session\spring-boot-lombok) 
+2018-10-06 23:13:13 1713 [restartedMain] INFO  com.gengniao.lombok.Application - No active profile set, falling back to default profiles: default 
+2018-10-06 23:13:13 1863 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1902eb3: startup date [Sat Oct 06 23:13:13 CST 2018]; root of context hierarchy 
+2018-10-06 23:13:14 2709 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+2018-10-06 23:13:17 6192 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-10-06 23:13:18 6211 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-10-06 23:13:18 6214 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-10-06 23:13:18 6981 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring embedded WebApplicationContext 
+2018-10-06 23:13:18 6982 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5120 ms 
+2018-10-06 23:13:19 7412 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-10-06 23:13:19 7422 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-10-06 23:13:19 7424 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-10-06 23:13:19 7424 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-10-06 23:13:19 7425 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-10-06 23:13:20 8902 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1902eb3: startup date [Sat Oct 06 23:13:13 CST 2018]; root of context hierarchy 
+2018-10-06 23:13:20 9063 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getAll]}" onto public java.util.List<com.gengniao.lombok.pojo.Student> com.gengniao.lombok.controller.StudentController.getAll() 
+2018-10-06 23:13:20 9070 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gengniao.lombok.controller.StudentController.hello() 
+2018-10-06 23:13:20 9081 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-10-06 23:13:20 9082 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-10-06 23:13:20 9154 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 23:13:20 9154 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 23:13:21 9309 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-10-06 23:13:21 9899 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2018-10-06 23:13:21 10053 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-10-06 23:13:21 10108 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2018-10-06 23:13:21 10128 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2018-10-06 23:13:21 10151 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+2018-10-06 23:13:22 10209 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+2018-10-06 23:13:22 10223 [restartedMain] INFO  com.gengniao.lombok.Application - Started Application in 9.387 seconds (JVM running for 11.095) 
+2018-10-06 23:13:34 22577 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/lombok] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+2018-10-06 23:13:34 22577 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+2018-10-06 23:13:34 22838 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 260 ms 
+2018-10-06 23:13:34 23010 [http-nio-8080-exec-1] INFO  c.g.l.controller.StudentController - ============================================ 
+2018-10-06 23:13:34 23011 [http-nio-8080-exec-1] INFO  c.g.l.controller.StudentController - 查询所有学生信息服务已经就绪 

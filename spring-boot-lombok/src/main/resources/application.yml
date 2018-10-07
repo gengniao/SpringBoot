@@ -1,0 +1,18 @@
+# tomcat 端口号
+server:
+    port: 8080
+    context-path: /lombok
+# 日志
+logging:
+    config: classpath:conf/lombok-dev.xml
+    
+mybatis:
+    type-aliases-package: com.gengniao.mybatis
+    mapper-locations: classpath:mappings/*.xml
+
+spring:
+    datasource:
+        driverClassName: oracle.jdbc.driver.OracleDriver
+        url: jdbc:oracle:thin:@localhost:1521:orcl
+        username: kongziCrm
+        password: kongziCrm
